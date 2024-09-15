@@ -1,3 +1,30 @@
 body {
-  font-family: Open Sans, sans-serif;
+  background-color: black;
+  color: #309b30;
+  font-family: "Kode Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.terminal {
+  background-color: #333;
+  padding: 20px;
+  border: 3px solid #309b30;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px #309b30;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#data-container {
+  white-space: pre-wrap;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
